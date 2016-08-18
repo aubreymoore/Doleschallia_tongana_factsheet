@@ -1,4 +1,4 @@
-#LyX file created by tex2lyx 2.1
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
 \lyxformat 474
 \begin_document
 \begin_header
@@ -67,10 +67,6 @@
   \endgroup
 }
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-
-
-
-
 \end_preamble
 \use_default_options false
 \maintain_unincluded_children false
@@ -96,15 +92,15 @@
 \paperfontsize default
 \spacing single
 \use_hyperref true
-\pdf_bookmarks 1
-\pdf_bookmarksnumbered 0
-\pdf_bookmarksopen 0
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
 \pdf_bookmarksopenlevel 1
-\pdf_breaklinks 1
-\pdf_pdfborder 1
-\pdf_colorlinks 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
 \pdf_backref false
-\pdf_pdfusetitle 1
+\pdf_pdfusetitle true
 \pdf_quoted_options "linkcolor=blue,urlcolor=blue,citecolor=blue"
 \papersize letterpaper
 \use_geometry true
@@ -155,31 +151,8 @@
 \begin_layout Title
 
 \size small
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-{}
-\end_layout
-
-\end_inset
-
-Guam New Invasive Species Alert No. 2016-01
-\size default
-
-\size giant
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-{}
-\end_layout
-
-\end_inset
-
-
+Guam New Invasive Species Alert No.
+ 2016-01
 \size default
 
 \begin_inset Newline newline
@@ -187,67 +160,16 @@ status collapsed
 
  
 \size giant
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-{}
-\end_layout
-
-\end_inset
-
 Greater Banded Hornet
-\size default
-
-\shape italic
-
 \size huge
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-{}
-\end_layout
-
-\end_inset
-
-
-\shape default
 
 \begin_inset Newline newline
 \end_inset
 
  
 \shape italic
-
-\size huge
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-{}
-\end_layout
-
-\end_inset
-
 Vespa tropica
 \shape default
-
-\size huge
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-{}
-\end_layout
-
-\end_inset
-
-
 \size default
 
 \begin_inset Newline newline
@@ -255,23 +177,13 @@ status collapsed
 
  
 \size huge
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-{}
-\end_layout
-
-\end_inset
-
 (Hymenoptera: Vespidae) 
-\size default
-
 \end_layout
 
 \begin_layout Author
-Christopher A. Rosario, Lee Roy Sablan, Ross H. Miller, and Aubrey Moore
+Christopher A.
+ Rosario, Lee Roy Sablan, Ross H.
+ Miller, and Aubrey Moore
 \begin_inset Newline newline
 \end_inset
 
@@ -283,21 +195,18 @@ Christopher A. Rosario, Lee Roy Sablan, Ross H. Miller, and Aubrey Moore
 \begin_inset Newline newline
 \end_inset
 
-Updated August 10, 2016
+Updated August 19, 2016
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset Float figure
 placement H
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
-
-\begin_inset Graphics 
+\begin_layout Plain Layout
+\begin_inset Graphics
 	filename Hornet_bee500.jpg
 	width 100col%
 
@@ -309,6 +218,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 protect
 \end_layout
@@ -319,14 +229,16 @@ protect
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:vespa-tropica"
 
 \end_inset
 
-The first greater banded hornet collected on Guam with a honeybee for size comparison. Photo by Olympia Terral. 
+The first greater banded hornet collected on Guam with a honeybee for size
+ comparison.
+ Photo by Olympia Terral.
+ 
 \end_layout
 
 \end_inset
@@ -340,35 +252,16 @@ The first greater banded hornet collected on Guam with a honeybee for size compa
 \end_layout
 
 \begin_layout Standard
-On July 12, 2016, University of Guam research assistant Christopher Rosario discovered a colony of large wasps nesting in a hollow avocado tree in Dededo, Guam (13.50533 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-\backslash
-degree
-\end_layout
-
-\end_inset
-
- N, 144.80134 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-\backslash
-degree
-\end_layout
-
-\end_inset
-
- E). The wasps were aggressive, resulting in only single specimen being collected. This observation was posted on the iNaturalist web site (
+On July 12, 2016, University of Guam research assistant Christopher Rosario
+ discovered a colony of large wasps nesting in a hollow avocado tree in
+ Dededo, Guam (13.50533N, 144.80134E).
+ The wasps were aggressive, resulting in only single specimen being collected.
+ This observation was posted on the iNaturalist web site (
 \begin_inset Flex Flex:URL
 status collapsed
 
 \begin_layout Plain Layout
+
 http://www.inaturalist.org/observations/3663868
 \end_layout
 
@@ -378,33 +271,40 @@ http://www.inaturalist.org/observations/3663868
 \end_layout
 
 \begin_layout Standard
-On July 20, 2016, Arnold Perez of the Leo Palace Resort delivered 5 specimens of 
+On July 20, 2016, Arnold Perez of the Leo Palace Resort delivered 5 specimens
+ of 
 \shape italic
 Vespa tropica
 \shape default
- to Dr. Aubrey Moore at the University of Guam. Perez discovered a nest near a swiiming pool (
+ to Dr.
+ Aubrey Moore at the University of Guam.
+ Perez discovered a nest near a swiiming pool (
 \begin_inset Flex Flex:URL
 status collapsed
 
 \begin_layout Plain Layout
+
 http://www.inaturalist.org/observations/3710757
 \end_layout
 
 \end_inset
 
-). Specimens were placed in the University of Guam Insect Collection.
+).
+ Specimens were placed in the University of Guam Insect Collection.
 \end_layout
 
 \begin_layout Standard
 On August 8, 2016, Joey Lopez submitted an image of 
 \shape italic
-V. tropica
+V.
+ tropica
 \shape default
  collected at the Sheraton Hotel on Guam from (
 \begin_inset Flex Flex:URL
 status collapsed
 
 \begin_layout Plain Layout
+
 http://www.inaturalist.org/observations/3846302
 \end_layout
 
@@ -425,17 +325,14 @@ Vespa tropica
  based on publicly available images and keys 
 \begin_inset CommandInset citation
 LatexCommand citep
-after ""
-before ""
 key "archer1991taxonomy"
 
 \end_inset
 
-. This is a medium-sized to large species. Queens reach 30mm or more, males average 26mm and workers average 24 to 26mm.
-\end_layout
-
-\begin_layout Standard
-This species is known to attack the nests of Polistines (paper wasps) in order to obtain the larvae to feed their own larvae. It is said to be almost exclusive in choice of prey. However, they sometimes catch honeybees
+.
+ This is a medium-sized to large species.
+ Queens reach 30mm or more, males average 26mm and workers average 24 to
+ 26mm.
 \end_layout
 
 \begin_layout Standard
@@ -443,7 +340,41 @@ The nest of
 \shape italic
 Vespa tropica
 \shape default
- is usually underground or in a tree hollow or similar enclosed space. Due to the location, the nest is seldom seen. If excavated, the nest usually appears rhomboid or bowl-shaped, with an open bottom (as opposed to the completely sealed nests of most aerial hornets). The nest envelope is laminar (comprising of distinct, broad individual layers) and very brittle.
+ is usually underground or in a tree hollow or similar enclosed space.
+ Due to the location, the nest is seldom seen.
+ If excavated, the nest usually appears rhomboid or bowl-shaped, with an
+ open bottom (as opposed to the completely sealed nests of most aerial hornets).
+ The nest envelope is laminar (comprising of distinct, broad individual
+ layers) and very brittle.
+\end_layout
+
+\begin_layout Subsection*
+Human Health Risk
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+V.
+ tropica
+\emph default
+ is very aggressive and readily stings in the vicinity of its nest.
+ Death following multiple stings from this species has been documented,
+ but this is very rare.
+ As with any stinging insect, an allergic reaction (anaphylaxis) is far
+ more dangerous.
+ About 3% of adults are allergic to insect stings [REFERENCE].
+\end_layout
+
+\begin_layout Subsection*
+Environmental Risk
+\end_layout
+
+\begin_layout Standard
+This species is known to attack the nests of Polistines (paper wasps) in
+ order to obtain the larvae to feed their own larvae.
+ It is said to be almost exclusive in choice of prey.
+ However, they sometimes catch honeybees.
 \end_layout
 
 \begin_layout Section*
@@ -455,11 +386,10 @@ Distribution
 \shape italic
 Vespa tropica
 \shape default
- is found in China, Japan, Malaysia, Hong Kong, Singapore, India, and the Philippines 
+ is found in China, Japan, Malaysia, Hong Kong, Singapore, India, and the
+ Philippines 
 \begin_inset CommandInset citation
 LatexCommand citep
-after ""
-before ""
 key "GBIF"
 
 \end_inset
@@ -468,11 +398,11 @@ key "GBIF"
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 %
 \backslash
 section*{Acknowledgments}
@@ -484,11 +414,11 @@ section*{Acknowledgments}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 %Acknowledgments to appear here.
 \end_layout
 
@@ -498,7 +428,6 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset Newpage newpage
 \end_inset
 
