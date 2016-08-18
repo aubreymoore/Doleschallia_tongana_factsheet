@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: vespa_tropica.aux
+The style file: plainnat.bst
+Database file #1: VespaTropica.bib
+Warning--I'm ignoring archer1991taxonomy's extra "url" field
+--line 30 of file VespaTropica.bib
+Warning--empty year in Chan1972
+Warning--empty year in Chan1972
+Warning--empty year in GBIF
+Warning--empty year in iNat284072
+Warning--empty year in iNat3710757
+You've used 6 entries,
+            2773 wiz_defined-function locations,
+            628 strings with 5795 characters,
+and the built_in function-call counts, 2010 in all, are:
+= -- 177
+> -- 60
+< -- 6
++ -- 25
+- -- 18
+* -- 124
+:= -- 307
+add.period$ -- 20
+call.type$ -- 6
+change.case$ -- 21
+chr.to.int$ -- 5
+cite$ -- 17
+duplicate$ -- 100
+empty$ -- 207
+format.name$ -- 24
+if$ -- 419
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 2
+newline$ -- 40
+num.names$ -- 24
+pop$ -- 75
+preamble$ -- 1
+purify$ -- 18
+quote$ -- 0
+skip$ -- 70
+stack$ -- 0
+substring$ -- 58
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 66
+warning$ -- 5
+while$ -- 21
+width$ -- 0
+write$ -- 83
+(There were 6 warnings)

@@ -1,0 +1,447 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass IEEEtran
+\begin_preamble
+\usepackage{color}%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+
+
+\definecolor{fgcolor}{rgb}{0.2, 0.2, 0.2}
+\newcommand{\hlnumber}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlfunctioncall}[1]{\textcolor[rgb]{0.501960784313725,0,0.329411764705882}{\textbf{#1}}}%
+\newcommand{\hlstring}[1]{\textcolor[rgb]{0.6,0.6,1}{#1}}%
+\newcommand{\hlkeyword}[1]{\textcolor[rgb]{0,0,0}{\textbf{#1}}}%
+\newcommand{\hlargument}[1]{\textcolor[rgb]{0.690196078431373,0.250980392156863,0.0196078431372549}{#1}}%
+\newcommand{\hlcomment}[1]{\textcolor[rgb]{0.180392156862745,0.6,0.341176470588235}{#1}}%
+\newcommand{\hlroxygencomment}[1]{\textcolor[rgb]{0.43921568627451,0.47843137254902,0.701960784313725}{#1}}%
+\newcommand{\hlformalargs}[1]{\textcolor[rgb]{0.690196078431373,0.250980392156863,0.0196078431372549}{#1}}%
+\newcommand{\hleqformalargs}[1]{\textcolor[rgb]{0.690196078431373,0.250980392156863,0.0196078431372549}{#1}}%
+\newcommand{\hlassignement}[1]{\textcolor[rgb]{0,0,0}{\textbf{#1}}}%
+\newcommand{\hlpackage}[1]{\textcolor[rgb]{0.588235294117647,0.709803921568627,0.145098039215686}{#1}}%
+\newcommand{\hlslot}[1]{\textit{#1}}%
+\newcommand{\hlsymbol}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlprompt}[1]{\textcolor[rgb]{0.2,0.2,0.2}{#1}}%
+
+\usepackage{framed}
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}{\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+
+
+
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}\usepackage{booktabs}\usepackage{fullpage}
+
+
+
+% Create a new command, \blfootnote which creates a footnote without a number
+\newcommand{\blfootnote}[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding iso8859-15
+\fontencoding default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue,urlcolor=blue,citecolor=blue"
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\size small
+Guam New Invasive Species Alert No.
+ 2016-01
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\size giant
+Greater Banded Hornet
+\size huge
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape italic
+Vespa tropica
+\shape default
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\size huge
+(Hymenoptera: Vespidae) 
+\end_layout
+
+\begin_layout Author
+Christopher A.
+ Rosario, Lee Roy Sablan, Ross H.
+ Miller, and Aubrey Moore
+\begin_inset Newline newline
+\end_inset
+
+ University of Guam, College of Natural and Applied Sciences
+\begin_inset Newline newline
+\end_inset
+
+ July 13, 2016
+\begin_inset Newline newline
+\end_inset
+
+Updated August 19, 2016
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Hornet_bee500.jpg
+	width 100col%
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vespa-tropica"
+
+\end_inset
+
+The first greater banded hornet collected on Guam with a honeybee for size
+ comparison.
+ Photo by Olympia Terral.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On July 12, 2016, University of Guam research assistant Christopher Rosario
+ discovered a colony of large wasps nesting in a hollow avocado tree in
+ Dededo, Guam (13.50533N, 144.80134E).
+ The wasps were aggressive, resulting in only single specimen being collected.
+ This observation was posted on the iNaturalist web site (
+\begin_inset Flex Flex:URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.inaturalist.org/observations/3663868
+\end_layout
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+On July 20, 2016, Arnold Perez of the Leo Palace Resort delivered 5 specimens
+ of 
+\shape italic
+Vespa tropica
+\shape default
+ to Dr.
+ Aubrey Moore at the University of Guam.
+ Perez discovered a nest near a swiiming pool (
+\begin_inset Flex Flex:URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.inaturalist.org/observations/3710757
+\end_layout
+
+\end_inset
+
+).
+ Specimens were placed in the University of Guam Insect Collection.
+\end_layout
+
+\begin_layout Standard
+On August 8, 2016, Joey Lopez submitted an image of 
+\shape italic
+V.
+ tropica
+\shape default
+ collected at the Sheraton Hotel on Guam from (
+\begin_inset Flex Flex:URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.inaturalist.org/observations/3846302
+\end_layout
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Section*
+Description
+\end_layout
+
+\begin_layout Standard
+UOG entomologists identified the wasp as 
+\shape italic
+Vespa tropica
+\shape default
+ based on publicly available images and keys 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "archer1991taxonomy"
+
+\end_inset
+
+.
+ This is a medium-sized to large species.
+ Queens reach 30mm or more, males average 26mm and workers average 24 to
+ 26mm.
+\end_layout
+
+\begin_layout Standard
+The nest of 
+\shape italic
+Vespa tropica
+\shape default
+ is usually underground or in a tree hollow or similar enclosed space.
+ Due to the location, the nest is seldom seen.
+ If excavated, the nest usually appears rhomboid or bowl-shaped, with an
+ open bottom (as opposed to the completely sealed nests of most aerial hornets).
+ The nest envelope is laminar (comprising of distinct, broad individual
+ layers) and very brittle.
+\end_layout
+
+\begin_layout Subsection*
+Human Health Risk
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+V.
+ tropica
+\emph default
+ is very aggressive and readily stings in the vicinity of its nest.
+ Death following multiple stings from this species has been documented,
+ but this is very rare.
+ As with any stinging insect, an allergic reaction (anaphylaxis) is far
+ more dangerous.
+ About 3% of adults are allergic to insect stings [REFERENCE].
+\end_layout
+
+\begin_layout Subsection*
+Environmental Risk
+\end_layout
+
+\begin_layout Standard
+This species is known to attack the nests of Polistines (paper wasps) in
+ order to obtain the larvae to feed their own larvae.
+ It is said to be almost exclusive in choice of prey.
+ However, they sometimes catch honeybees.
+\end_layout
+
+\begin_layout Section*
+Distribution
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Vespa tropica
+\shape default
+ is found in China, Japan, Malaysia, Hong Kong, Singapore, India, and the
+ Philippines 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "GBIF"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%
+\backslash
+section*{Acknowledgments}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%Acknowledgments to appear here.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+   
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "VespaTropica"
+options "plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
