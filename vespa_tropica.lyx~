@@ -114,8 +114,8 @@
 \use_package stackrel 0
 \use_package stmaryrd 0
 \use_package undertilde 0
-\cite_engine natbib
-\cite_engine_type authoryear
+\cite_engine basic
+\cite_engine_type default
 \biblio_style plainnat
 \use_bibtopic false
 \use_indices false
@@ -294,23 +294,27 @@ http://www.inaturalist.org/observations/3710757
 \end_layout
 
 \begin_layout Standard
-On August 8, 2016, Joey Lopez submitted an image of 
-\shape italic
+A press release was issued requesting residents of Guam to report sightings
+ of 
+\emph on
 V.
  tropica
-\shape default
- collected at the Sheraton Hotel on Guam from (
-\begin_inset Flex Flex:URL
-status collapsed
+\emph default
+.
+ These sightings are being documented in an iNaturalist project set up for
+ this purpose (
+\begin_inset Flex URL
+status open
 
 \begin_layout Plain Layout
 
-http://www.inaturalist.org/observations/3846302
+http://www.inaturalist.org/projects/vespa-tropica-on-guam
 \end_layout
 
 \end_inset
 
 ).
+ 
 \end_layout
 
 \begin_layout Section*
@@ -318,7 +322,7 @@ Description
 \end_layout
 
 \begin_layout Standard
-UOG entomologists identified the wasp as 
+UOG entomologists (Sablan and Moore) identified the wasp as 
 \shape italic
 Vespa tropica
 \shape default
@@ -330,7 +334,16 @@ key "archer1991taxonomy"
 \end_inset
 
 .
- This is a medium-sized to large species.
+ This species determination was confirmed by Dr.
+ Jason Mottern at the USDA Systematic Entomology Laboratory.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Vespa tropica
+\emph default
+ is a medium-sized to large species.
  Queens reach 30mm or more, males average 26mm and workers average 24 to
  26mm.
 \end_layout
@@ -359,11 +372,18 @@ V.
  tropica
 \emph default
  is very aggressive and readily stings in the vicinity of its nest.
- Death following multiple stings from this species has been documented,
- but this is very rare.
+ Death caused by the venom from multiple stings from this species has been
+ documented, but this is very rare.
  As with any stinging insect, an allergic reaction (anaphylaxis) is far
  more dangerous.
- About 3% of adults are allergic to insect stings [REFERENCE].
+ About 3% of adults are allergic to insect stings 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "golden2007insectsting"
+
+\end_inset
+
+ .
 \end_layout
 
 \begin_layout Subsection*
@@ -373,12 +393,95 @@ Environmental and Agricultural Risk
 \begin_layout Standard
 This species is known to attack the nests of Polistines (paper wasps) in
  order to obtain the larvae to feed their own larvae.
- On Guam, V.
- tropica has already been documented raiding a Polistes stigma, one of 2
- species of small paper wasps locally referred to as ''boonie bees'' (REFERENCE).
- V.
- tropica has also been reported to raid hives of the European honeybee,
- Apis mellifera (REFERENCE).
+ On Guam, a video recording has been made by Wayne Borja which documents
+ 
+\emph on
+V.
+ tropica
+\emph default
+ raiding a 
+\emph on
+Polistes stigma
+\emph default
+, one of 2 species of small paper wasps locally referred to as ''boonie
+ bees'' (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.youtube.com/watch?v=gVXR44ixrxk
+\end_layout
+
+\end_inset
+
+).
+ 
+\emph on
+V.
+ tropica
+\emph default
+ has also been reported to raid hives of the European honeybee, 
+\emph on
+Apis mellifera
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "burgett1982predation"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Screenshot from 2016-08-19 13:36:39.png
+	width 100col%
+	height 100theight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Vespa-tropica-sightings"
+
+\end_inset
+
+Vespa tropica
+\emph default
+ sightings to date.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -410,7 +513,19 @@ Guam Distribution
 \end_layout
 
 \begin_layout Standard
-asasas
+To date, there have been eleven sightings of 
+\emph on
+V.
+ tropica
+\emph default
+, all in central Guam (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Vespa-tropica-sightings"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Section*
@@ -436,43 +551,8 @@ V.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-%
-\backslash
-section*{Acknowledgments}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-%Acknowledgments to appear here.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-   
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-btprint "btPrintAll"
 bibfiles "VespaTropica"
 options "plainnat"
 
