@@ -1,4 +1,4 @@
-﻿@Misc{iNat3710757, 0_B7X48FBA 0_2ZRWKH8P 0_8RJ46V8U 0_R8T7RK3T
+﻿@Misc{iNat3710757, 0_B7X48FBA 0_2ZRWKH8P 0_8RJ46V8U 0_R8T7RK3T 0_QJINEAJB
   Author = {{iNaturalist.org web application}},
   Url   = {http://www.inaturalist.org/observations/3710757},
   Note  = {[Online; accessed 21-July-2016]},
@@ -89,4 +89,14 @@
 	journal = {ALF anti-hornet suit},
 	author = {{Anon.}},
 	file = {ALF ANTI-HORNET:/home/aubreymoore/.zotero/zotero/uqtovekj.default/zotero/storage/J2M489NM/z_alf_hati.html:text/html}
+}
+
+@misc{kuamnews2016invasive,
+	title = {Invasive wasp may be here to stay},
+	url = {https://www.youtube.com/watch?v=E5HyUJGeK1A},
+	abstract = {The Guam Fire Department attempted a dog rescue and were attacked by a nest of Greater Banded Hornets for their trouble.},
+	urldate = {2016-09-14},
+	author = {{kuamnews}},
+	month = aug,
+	year = {2016}
 }
