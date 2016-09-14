@@ -1,4 +1,4 @@
-﻿@Misc{iNat3710757, 0_B7X48FBA 0_2ZRWKH8P
+﻿@Misc{iNat3710757, 0_B7X48FBA 0_2ZRWKH8P 0_8RJ46V8U 0_R8T7RK3T
   Author = {{iNaturalist.org web application}},
   Url   = {http://www.inaturalist.org/observations/3710757},
   Note  = {[Online; accessed 21-July-2016]},
@@ -67,4 +67,26 @@
 	pmcid = {PMC1961691},
 	pages = {261--vii},
 	file = {PubMed Central Full Text PDF:/home/aubreymoore/.mozilla/firefox/sk7pqkvk.default/zotero/storage/SVFRPQ6W/Golden - 2007 - INSECT STING ANAPHYLAXIS.pdf:application/pdf}
+}
+
+@article{burgett1982predation,
+	title = {Predation on the western honey bee, {Apis} mellifera {L}., by the hornet, {Vespa} tropica ({L}.)},
+	volume = {89},
+	url = {http://psyche.entclub.org/89/89-347.html},
+	number = {3-4},
+	urldate = {2016-08-18},
+	journal = {Psyche},
+	author = {Burgett, Michael and Akratanakul, Pongthep},
+	year = {1982},
+	pages = {347--350},
+	file = {89-347.pdf:/home/aubreymoore/.mozilla/firefox/sk7pqkvk.default/zotero/storage/SJTAATR7/89-347.pdf:application/pdf}
+}
+
+@misc{anon.alfantihornet,
+	title = {{ALF} {ANTI}-{HORNET}},
+	url = {http://www.7tak.co.jp/english/z_alf_hati.htm},
+	urldate = {2016-09-14},
+	journal = {ALF anti-hornet suit},
+	author = {{Anon.}},
+	file = {ALF ANTI-HORNET:/home/aubreymoore/.zotero/zotero/uqtovekj.default/zotero/storage/J2M489NM/z_alf_hati.html:text/html}
 }

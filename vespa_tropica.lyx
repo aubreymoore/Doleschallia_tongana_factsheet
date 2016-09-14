@@ -186,7 +186,7 @@ Christopher A.
 \begin_inset Newline newline
 \end_inset
 
-Updated August 20, 2016
+Updated September 14, 2016
 \end_layout
 
 \begin_layout Standard
@@ -374,7 +374,20 @@ key "golden2007insectsting"
 
 \end_inset
 
- .
+.
+ 
+\end_layout
+
+\begin_layout Standard
+A member of the Guam Fire Department was attacked while trying to rescue
+ a dog and this incident was captured in a video 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kuamnews2016invasive"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -540,6 +553,18 @@ V.
  area such as immediately adjacent to a home or school.
  Nest removal is dangerous and should be attempted only by experienced pest
  control operators.
+ Bee suits may not provide sufficient protection from stings because the
+ hornet's stinger is much longer than that of a honeybee.
+ A company in Japan markets a suit designed for working with 
+\emph on
+Vespa mandarinia 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "anon.alfantihornet"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
