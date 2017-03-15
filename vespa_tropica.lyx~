@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass IEEEtran
 \begin_preamble
 \usepackage{color}%% maxwidth is the original width if it is less than linewidth
@@ -72,18 +74,18 @@
 \maintain_unincluded_children false
 \language english
 \language_package none
-\inputencoding latin9
+\inputencoding iso8859-15
 \fontencoding default
-\font_roman default
-\font_sans default
-\font_typewriter default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -104,15 +106,24 @@
 \pdf_quoted_options "linkcolor=blue,urlcolor=blue,citecolor=blue"
 \papersize letterpaper
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 0
-\use_mathdots 0
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
 \index Index
 \shortcut idx
@@ -173,8 +184,8 @@ Vespa tropica
 
 \begin_layout Author
 Christopher A.
- Rosario, Lee Roy Sablan, Ross H.
- Miller, and Aubrey Moore
+ Rosario, Lee Roy Sablan, Aubrey Moore and Ross H.
+ Miller
 \begin_inset Newline newline
 \end_inset
 
@@ -186,7 +197,7 @@ Christopher A.
 \begin_inset Newline newline
 \end_inset
 
-Updated September 14, 2016
+Updated March 15, 2017
 \end_layout
 
 \begin_layout Standard
@@ -217,7 +228,7 @@ protect
 \end_inset
 
 
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 \begin_inset CommandInset label
@@ -248,7 +259,7 @@ On July 12, 2016, University of Guam research assistant Christopher Rosario
  Dededo, Guam (13.50533º N, 144.80134º E).
  The wasps were aggressive, resulting in only a single specimen being collected.
  This observation was posted on the iNaturalist web site (
-\begin_inset Flex Flex:URL
+\begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
@@ -270,7 +281,7 @@ Vespa tropica
  to Dr.
  Aubrey Moore at the University of Guam.
  Perez discovered a nest near a swiiming pool (
-\begin_inset Flex Flex:URL
+\begin_inset Flex URL
 status collapsed
 
 \begin_layout Plain Layout
@@ -383,7 +394,7 @@ A member of the Guam Fire Department was attacked while trying to rescue
  a dog and this incident was captured in a video 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "kuamnews2016invasive"
+key "guamdailypost2016dogrescue"
 
 \end_inset
 
@@ -447,7 +458,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Screenshot from 2016-08-19 13:36:39.png
+	filename Screenshot from 2017-03-14 08-42-17.png
 	width 100col%
 	height 100theight%
 	keepAspectRatio
@@ -458,7 +469,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
@@ -471,7 +482,7 @@ name "fig:Vespa-tropica-sightings"
 
 Vespa tropica
 \emph default
- sightings to date.
+ sightings as of March 15,2017.
 \end_layout
 
 \end_inset
@@ -576,6 +587,22 @@ options "plainnat"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\SpecialChar LyX
+ source code for this document is at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/aubreymoore/Vespa-tropica
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \end_body
