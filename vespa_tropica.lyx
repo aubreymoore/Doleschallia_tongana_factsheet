@@ -602,7 +602,22 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-\SpecialChar LyX
+Latest version of this document is at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/aubreymoore/Vespa-tropica/blob/master/vespa_tropica.pdf
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The \SpecialChar LyX
  source code for this document is at 
 \begin_inset Flex URL
 status open
